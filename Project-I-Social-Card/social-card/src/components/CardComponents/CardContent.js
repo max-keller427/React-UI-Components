@@ -9,7 +9,7 @@ function CardContent() {
         React makes it painless to create interactive Uls. Design simple view
         for each state in your application.
       </p>
-      <p id="reactjs.org">reactjs.org</p>
+      <p id="reactjs">reactjs.org</p>
     </div>
   );
 }

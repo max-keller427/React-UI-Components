@@ -5,6 +5,7 @@
 .headerContainer img {
   width: 52px;
   height: 54px;
+  margin-top: 10px;
 }
 .headerTitle {
   display: flex;

@@ -1,4 +1,8 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  text-decoration: none;
+  color: black;
+}
 .cardImg img {
   width: 506px;
   height: 252px;

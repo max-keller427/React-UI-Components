@@ -3,7 +3,7 @@ import "./Card.css";
 
 function CardContent() {
   return (
-    <div class="cardContent">
+    <div className="cardContent">
       <h2> Get started with React</h2>
       <p>
         React makes it painless to create interactive Uls. Design simple view

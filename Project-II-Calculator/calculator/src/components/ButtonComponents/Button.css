@@ -1,3 +1,15 @@
 * {
   box-sizing: border-box;
 }
+
+.numberButton div {
+  position: relative;
+  top: 216px;
+  width: 324px;
+  height: 276px;
+  border: 1px solid red;
+}
+
+.actionButton {
+  border: 1px solid green;
+}

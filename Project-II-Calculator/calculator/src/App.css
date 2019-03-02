@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 456px;
+  height: 597px;
+  border: 1px solid grey;
+}

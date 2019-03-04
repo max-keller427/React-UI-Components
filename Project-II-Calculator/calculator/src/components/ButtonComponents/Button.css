@@ -17,7 +17,10 @@
 .actionButton {
   width: 118px;
   height: 92px;
-  background-color: red;
+  background-color: #a3001e;
+  border: 2px solid grey;
+  color: white;
+  font-size: 64px;
 }
 
 .actionButton:focus {

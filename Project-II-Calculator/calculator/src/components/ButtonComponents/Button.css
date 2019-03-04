@@ -44,6 +44,9 @@
   border: 2px solid grey;
   font-size: 45px;
 }
+.clearButton:focus {
+  outline: 0;
+}
 .zeroContainer {
   position: absolute;
   top: 492px;
@@ -55,4 +58,8 @@
   border: 2px solid grey;
   font-size: 45px;
   font-weight: bold;
+}
+
+.zeroButton:focus {
+  outline: 0;
 }

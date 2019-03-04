@@ -3,8 +3,20 @@
 }
 
 .container {
-  width: 456px;
-  height: 597px;
+  width: 460px;
+  height: 602px;
   border: 1px solid grey;
+  position: relative;
+}
+
+.numberButton {
   position: absolute;
+  top: 216px;
+  width: 330px;
+}
+
+.actionButton {
+  height: 460px;
+  display: flex;
+  flex-direction: column;
 }

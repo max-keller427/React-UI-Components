@@ -5,6 +5,11 @@
   background-color: #222222;
   color: white;
   font-size: 64px;
+  font-weight: 100;
   position: absolute;
   top: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  padding-top: 25px;
 }

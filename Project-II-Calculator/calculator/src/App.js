@@ -13,7 +13,7 @@ const symbArray = ["÷", "x", "-", "+", "="];
 const App = () => {
   return (
     <div className="container">
-      <div className="clearButton">
+      <div className="clearContainer">
         <ClearButton />
       </div>
       <div className="numberButton">
@@ -29,7 +29,7 @@ const App = () => {
       <div className="calcDisplay">
         <CalculatorDisplay />
       </div>
-      <div className="zeroButton">
+      <div className="zeroContainer">
         <ZeroButton />
       </div>
     </div>

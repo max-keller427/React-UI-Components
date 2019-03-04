@@ -33,15 +33,26 @@
   height: 92px;
 }
 
-.clearButton {
+.clearContainer {
   position: relative;
-  top: 122px;
+  top: 123px;
+}
+.clearButton {
   width: 329px;
   height: 92px;
   background-color: white;
+  border: 2px solid grey;
+  font-size: 45px;
 }
-
-.zeroButton {
+.zeroContainer {
   position: absolute;
-  top: 480px;
+  top: 492px;
+}
+.zeroButton {
+  width: 329px;
+  height: 92px;
+  background-color: white;
+  border: 2px solid grey;
+  font-size: 45px;
+  font-weight: bold;
 }

@@ -4,7 +4,7 @@ import "./Button.css";
 function ClearButton() {
   return (
     <div>
-      <button>clear</button>
+      <button className="clearButton">clear</button>
     </div>
   );
 }

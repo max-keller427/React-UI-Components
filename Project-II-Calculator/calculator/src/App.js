@@ -4,13 +4,18 @@ import "./App.css";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ClearButton from "./components/ButtonComponents/ClearButton";
+import ZeroButton from "./components/ButtonComponents/ZeroButton";
 
-const calcArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const calcArray = [7, 8, 9, 4, 5, 6, 1, 2, 3];
 const symbArray = ["÷", "x", "-", "+", "="];
 
 const App = () => {
   return (
     <div className="container">
+      <div className="clearButton">
+        <ClearButton />
+      </div>
       <div className="numberButton">
         {calcArray.map((num, index) => (
           <NumberButton num={num} key={index} />
@@ -23,6 +28,9 @@ const App = () => {
       </div>
       <div className="calcDisplay">
         <CalculatorDisplay />
+      </div>
+      <div className="zeroButton">
+        <ZeroButton />
       </div>
     </div>
   );

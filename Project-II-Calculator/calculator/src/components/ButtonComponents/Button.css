@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.numButton {
+  width: 110px;
+  height: 92px;
+  border: 2px solid grey;
+  background-color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+.numButton:focus {
+  outline: 0;
+}
+
+.actionButton {
+  width: 118px;
+  height: 92px;
+  background-color: #a3001e;
+  border: 2px solid grey;
+  color: white;
+  font-size: 64px;
+}
+
+.actionButton:focus {
+  outline: 0;
+}
+
+.clear-zero {
+  border: 1px solid green;
+  width: 332px;
+  height: 92px;
+}
